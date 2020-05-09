@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.scwang.smartrefresh.layout.SmartRefreshLayout
+    android:id="@+id/common_rl_error"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_white">
+
+    <com.sinyee.babybus.core.widget.CommonHeader
+        android:id="@+id/common_rv_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/common_dp_10">
+
+        <ImageView
+            android:id="@+id/common_iv_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/common_default_net_error"/>
+
+        <TextView
+            android:id="@+id/common_tv_tips"
+            android:layout_width="120dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/common_shape_corner_large"
+            android:gravity="center"
+            android:paddingBottom="@dimen/common_dp_10"
+            android:paddingEnd="@dimen/common_dp_10"
+            android:paddingStart="@dimen/common_dp_10"
+            android:paddingTop="@dimen/common_dp_10"
+            android:text="@string/common_try"
+            android:textColor="@color/common_color_blue"
+            android:textSize="@dimen/common_sp_17"/>
+    </LinearLayout>
+</com.scwang.smartrefresh.layout.SmartRefreshLayout>

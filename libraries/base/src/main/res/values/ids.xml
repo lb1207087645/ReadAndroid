@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="common_adapter_viewholder_support" type="id" />
+    <item name="common_adapter_swiping_support" type="id" />
+    <item name="common_adapter_dragging_support" type="id" />
+    <item name="common_adapter_databinding_support" type="id" />
+    <item name="common_view_pager_item_tag" type="id" />
+</resources>

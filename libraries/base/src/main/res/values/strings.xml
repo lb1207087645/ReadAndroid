@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">base</string>
+    <!-- app meta-data参数配置 -->
+    <string name="network_project_id">AD_PROJECT_ID</string>
+    <string name="network_ch_id">AD_CH_ID</string>
+    <string name="network_ch_code">AD_CH_CODE</string>
+    <string name="network_token_type">AD_TOKEN_TYPE</string>
+    <string name="network_product_id">AD_PRODUCT_ID</string>
+    <string name="network_sdk_ver_name">AD_SDK_VER_NAME</string>
+    <string name="network_sdk_ver_code">AD_SDK_VER_CODE</string>
+    <string name="network_secret_key">AD_SECRET_KEY</string>
+    <string name="network_xxtea_key">AD_XXTEA_KEY</string>
+    <string name="network_des_key">AD_DES_KEY</string>
+    <string name="network_business_product_id">Business_PRODUCT_ID</string>
+    <string name="network_business_secret_key">Business_SECRET_KEY</string>
+    <string name="network_business_xxtea_key">Business_XXTEA_KEY</string>
+    <string name="network_business_des_key">Business_DES_KEY</string>
+
+    <string name="common_loading">努力加载中…</string>
+    <string name="common_fetch_data_error">没有网络，再多的东西也出不来(TдT)</string>
+    <string name="common_load_failed">加载失败，请点我重试</string>
+    <string name="common_load_end">没有更多数据</string>
+    <string name="common_try">再试试</string>
+    <string name="common_error_view_refresh">重新加载</string>
+
+    <string name="common_not_net_load">没有网络, 再好听的儿歌也出不来</string>
+    <string name="common_net_exception">没有网络，再有趣的内容也出不来</string>
+    <string name="common_week_net_exception">网络环境差，再有趣的内容也出不来</string>
+    <string name="common_server_exception">服务器出错了，请稍后再试吧</string>
+    <string name="common_data_empty_exception">加载失败，请重启APP试试吧</string>
+    <string name="common_try_other">加载失败，查看解决方案</string>
+</resources>

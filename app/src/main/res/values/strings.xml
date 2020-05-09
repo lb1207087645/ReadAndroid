@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">读</string>
+    <string name="news_commentsize">%1$s评论</string>
+</resources>

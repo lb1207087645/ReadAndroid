@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/common_dp_10">
+
+    <LinearLayout
+        android:id="@+id/common_ll_net_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/common_iv_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/replaceable_drawable_no_network_default" />
+
+        <TextView
+            android:id="@+id/common_tv_no_net"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21dp"
+            android:gravity="center"
+            android:text="@string/common_not_net_load"
+            android:textColor="@color/common_gray_99"
+            android:textSize="@dimen/common_sp_17" />
+
+        <TextView
+            android:id="@+id/common_tv_error_refresh"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="57dp"
+            android:background="@drawable/common_shape_corner_large"
+            android:gravity="center"
+            android:paddingStart="@dimen/common_dp_10"
+            android:paddingTop="@dimen/common_dp_10"
+            android:paddingEnd="@dimen/common_dp_10"
+            android:paddingBottom="@dimen/common_dp_10"
+            android:text="@string/common_error_view_refresh"
+            android:textColor="@color/common_gray_66"
+            android:textSize="@dimen/common_sp_16" />
+
+        <TextView
+            android:id="@+id/common_tv_error_qa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/common_dp_12"
+            android:text="@string/common_try_other"
+            android:textColor="#ff5252"
+            android:textSize="@dimen/common_sp_14" />
+
+    </LinearLayout>
+</LinearLayout>

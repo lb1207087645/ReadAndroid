@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <!-- 主体文字,标题/标签 -->
+    <color name="txt_black">#212121</color>
+
+    <color name="white_f7">#F7F7F7</color>
+    <color name="black_4d">#4d4d4d</color>
+    <color name="black_4f5b1c">#4f5b1c</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="common_ColorPrimary">#3F51B5</color>
+    <color name="common_ColorPrimaryDark">#303F9F</color>
+    <color name="common_ColorAccent">#FF4081</color>
+
+    <color name="common_transparent">#00000000</color>
+    <color name="common_transparent_bg">#88838B8B</color>
+    <color name="common_gray_33">#333333</color>
+    <color name="common_gray_63">#636363</color>
+    <color name="common_gray_66">#666666</color>
+    <color name="common_gray_93">#939393</color>
+    <color name="common_gray_99">#999999</color>
+    <color name="common_gray_aa">#AAAAAA</color>
+    <color name="common_gray_cc">#CCCCCC</color>
+    <color name="common_background">#F2F2F2</color>
+    <color name="common_gray">#eeeeee</color>
+    <color name="common_dark_gray">#2e2e2e</color>
+    <color name="common_red">#FC5D5F</color>
+
+    <color name="common_color_blue">#17BAFF</color>
+    <color name="common_color_green">#27D0D8</color>
+    <color name="common_color_light_blue">#F2FBFF</color>
+    <color name="common_color_divider">#DFF3FD</color>
+    <color name="common_color_bottom_divider">#CAECFF</color>
+
+    <color name="common_color_background">@color/common_color_light_blue</color>
+    <color name="common_color_border">@color/common_color_light_blue</color>
+    <color name="common_color_dark_border">@color/common_color_blue</color>
+    <color name="common_header_txt">#60C0FF</color>
+    <!-- 白色递进 -->
+    <color name="common_white">#FFFFFF</color>
+    <color name="common_white10">#19FFFFFF</color>
+    <color name="common_white20">#33FFFFFF</color>
+    <color name="common_white30">#4CFFFFFF</color>
+    <color name="common_white40">#66FFFFFF</color>
+    <color name="common_white50">#7FFFFFFF</color>
+    <color name="common_white60">#99FFFFFF</color>
+    <color name="common_white70">#B2FFFFFF</color>
+    <color name="common_white80">#CCFFFFFF</color>
+    <color name="common_white90">#E5FFFFFF</color>
+
+    <!-- 黑色递进 -->
+    <color name="common_black">#000000</color>
+    <color name="common_black10">#19000000</color>
+    <color name="common_black20">#33000000</color>
+    <color name="common_black30">#4C000000</color>
+    <color name="common_black40">#66000000</color>
+    <color name="common_black50">#7F000000</color>
+    <color name="common_black60">#99000000</color>
+    <color name="common_black70">#B2000000</color>
+    <color name="common_black80">#CC000000</color>
+    <color name="common_black85">#D8000000</color>
+    <color name="common_black90">#E5000000</color>
+
+
+    <!--    tab页的颜色值-->
+    <color name="replaceable_color_home_text">@color/common_gray_99</color>
+    <color name="replaceable_color_home_text_selected">@color/common_gray_99</color>
+    <!-- 辅助文字,提示 -->
+    <color name="txt_light_gray">#CCCCCC</color>
+</resources>

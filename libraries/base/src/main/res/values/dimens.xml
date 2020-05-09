@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="common_dp_2">2dp</dimen>
+    <dimen name="common_dp_4">4dp</dimen>
+    <dimen name="common_dp_5">5dp</dimen>
+    <dimen name="common_dp_6">6dp</dimen>
+    <dimen name="common_dp_8">8dp</dimen>
+    <dimen name="common_dp_10">10dp</dimen>
+    <dimen name="common_dp_12">12dp</dimen>
+    <dimen name="common_dp_14">14dp</dimen>
+    <dimen name="common_dp_15">15dp</dimen>
+    <dimen name="common_dp_16">16dp</dimen>
+    <dimen name="common_dp_20">20dp</dimen>
+    <dimen name="common_dp_24">24dp</dimen>
+    <dimen name="common_dp_40">40dp</dimen>
+    <dimen name="common_dp_72">72dp</dimen>
+
+    <dimen name="common_sp_10">10sp</dimen>
+    <dimen name="common_sp_11">11sp</dimen>
+    <dimen name="common_sp_12">12sp</dimen>
+    <dimen name="common_sp_13">13sp</dimen>
+    <dimen name="common_sp_14">14sp</dimen>
+    <dimen name="common_sp_15">15sp</dimen>
+    <dimen name="common_sp_16">16sp</dimen>
+    <dimen name="common_sp_17">17sp</dimen>
+    <dimen name="common_sp_18">18sp</dimen>
+    <dimen name="common_sp_19">19sp</dimen>
+    <dimen name="common_sp_20">20sp</dimen>
+    <dimen name="common_sp_22">22sp</dimen>
+    <dimen name="common_sp_24">24sp</dimen>
+    <dimen name="common_sp_28">28sp</dimen>
+
+    <dimen name="common_toolbar_padding_top">0dp</dimen>
+
+    <dimen name="common_header_divider_height">@dimen/common_dp_2</dimen>
+    <dimen name="common_header_height">@dimen/common_dp_24</dimen>
+
+    <dimen name="common_corner_radius_small">@dimen/common_dp_2</dimen>
+    <dimen name="common_corner_radius">@dimen/common_dp_5</dimen>
+    <dimen name="common_corner_radius_big">@dimen/common_dp_10</dimen>
+    <dimen name="common_corner_radius_large">@dimen/common_dp_20</dimen>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- margin -->
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_huge">64dp</dimen>
+    <dimen name="margin_only_txt">48dp</dimen>
+
+    <!-- txtsize -->
+    <dimen name="txtsize_display1">34sp</dimen>
+    <dimen name="txtsize_headline">24sp</dimen>
+    <dimen name="txtsize_title">20sp</dimen>
+    <dimen name="txtsize_subhead">16sp</dimen>
+    <dimen name="txtsize_body">14sp</dimen>
+    <dimen name="txtsize_caption">12sp</dimen>
+
+    <!-- other size -->
+    <dimen name="corner_radius">2dp</dimen>
+    <dimen name="banner_height">136dp</dimen>
+    <!-- 适配尺寸 -->
+    <dimen name="common_title_bar_size">48dp</dimen>
+    <dimen name="main_tab_item_txt_size">@dimen/common_sp_10</dimen>
+</resources>
