@@ -39,7 +39,7 @@ class AboutUsActivity : BaseActivity<IPresenter<BaseView>, BaseView>(), View.OnC
     override fun onClick(v: View) {
         when (v.id) {
             R.id.tv_about -> {
-                VersionDialog(this@AboutUsActivity, "http://softfile.3g.qq.com:8080/msoft/179/24659/43549/qq_hd_mini_1.4.apk")
+                VersionDialog(this@AboutUsActivity, "https://runer.oss-cn-hangzhou.aliyuncs.com/apk/20200416.apk")
             }
         }
     }
