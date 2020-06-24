@@ -2,21 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.graduation.android.readme">
 
-    <uses-permission android:name="android.permission.CAMERA" />
-
-    <!--bomb -->
-    <uses-permission android:name="android.permission.INTERNET" />
-    <!--获取GSM（2g）、WCDMA（联通3g）等网络状态的信息  -->
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <!--获取wifi网络状态的信息 -->
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <!--保持CPU 运转，屏幕和键盘灯有可能是关闭的,用于文件上传和下载 -->
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <!--获取sd卡写的权限，用于文件上传和下载-->
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <!--允许读取手机状态 用于创建BmobInstallation-->
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- bomb -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 获取GSM（2g）、WCDMA（联通3g）等网络状态的信息 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 获取wifi网络状态的信息 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 保持CPU 运转，屏幕和键盘灯有可能是关闭的,用于文件上传和下载 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- 获取sd卡写的权限，用于文件上传和下载 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 允许读取手机状态 用于创建BmobInstallation -->
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /><!-- 安装权限 -->
     <application
         android:name=".app.MainApplication"
         android:allowBackup="true"
@@ -25,18 +18,15 @@
         android:networkSecurityConfig="@xml/network_security_config"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".downloadapk.AboutUsActivity"></activity>
         <activity
             android:name=".activity.MainActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
-
-
         <activity
             android:name=".login.LoginActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
-
         <activity
             android:name=".login.RegisterActivity"
             android:launchMode="singleTask"
@@ -45,8 +35,6 @@
             android:name=".setting.SettingActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
-
-
         <activity
             android:name=".activity.SplashActivity"
             android:screenOrientation="portrait"
@@ -58,9 +46,23 @@
             </intent-filter>
         </activity>
 
+
+
+
+
+
         <provider
             android:name="cn.bmob.v3.util.BmobContentProvider"
-            android:authorities="com.graduation.android.readme.BmobContentProvider"></provider>
+            android:authorities="com.graduation.android.readme.BmobContentProvider" />
+        <provider
+            android:name=".downloadapk.MyFileProvider"
+            android:authorities="${applicationId}.myfileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
     </application>
 
 </manifest>

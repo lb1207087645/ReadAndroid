@@ -55,8 +55,6 @@ android {
     }
 
 
-
-
 }
 MobSDK {
 
@@ -120,7 +118,7 @@ dependencies {
     api 'com.android.support.constraint:constraint-layout:1.1.3'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
-    compile "org.jetbrains.kotlin:kotlin-script-runtime:1.3.61"
+    implementation "org.jetbrains.kotlin:kotlin-script-runtime:1.3.61"
 
 
     //bomb相关
